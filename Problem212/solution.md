@@ -6,7 +6,7 @@ For a given column number, do the following:
 
 - If column number is lower than 26,
     - find the corresponding letter in the hashmap
-- If number is grerater than 26,
+- If number is greater than 26,
     - Divide the number by 26 and get the remainder and quotient
     - Find the encoding for the quotient and the encoding for the reminder, then merge the two of them
 
