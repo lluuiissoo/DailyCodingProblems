@@ -7,9 +7,9 @@ This solution will use recursivity
 
 For a given n integer, do the following:
 
-- If number is 0, 1 or 2,
-    - return 0, 1 or 10 respectively
-- If number is greater than 2,
+- If number is 0 or 1,
+    - return 0, 1 respectively
+- If number is 2 or greater,
     - Divide the number by 2 and get the remainder and quotient
     - Find the binary representation for the quotient and the binary representation for the reminder, then merge the two of them
 
