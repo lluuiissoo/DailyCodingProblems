@@ -4,12 +4,12 @@ Always get the greater of two available coins.
 
 
 
-1. Create and array with N values, create two pointers, pLeft and pRight, to represent available corners
+1. Create and array with N values, create two pointers, Left and Right, to represent available corners
 
 2. Loop thru all coins
 
-3. For each iteration determine whose player's turn is it
-3.1 If iteration number is odd, then is P1's turn; sle is P2's
+3. For each iteration determine whose player's turn it is
+(If iteration number is odd, then is P1's turn; else is P2's)
 
 4. For each iteration, calculate the max available value, assign it to the corresponding player, and move the pointer accordingly
 
